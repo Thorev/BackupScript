@@ -1,10 +1,5 @@
 <#
-.SYNOPSIS
     PowerShell 7.5 backup script with ZIP archiving
-.DESCRIPTION
-    Enhanced version using PowerShell 7.5 features for better performance and reliability
-.NOTES
-    Add 'Archive = true' to any [sourceX] section to enable ZIP compression
     Requires PowerShell 7.5 or later
 #>
 
@@ -12,7 +7,7 @@ param(
     [string]$ConfigFile = "config.ini"
 )
 
-# INI file parser
+# INI parser
 function Get-IniContent {
     param([string]$filePath)
     
@@ -38,7 +33,7 @@ function Get-IniContent {
     return $ini
 }
 
-# Enhanced logger
+# logger
 function Write-Log {
     param(
         [string]$message, 
@@ -111,7 +106,7 @@ try {
     
     Write-Log "=== BACKUP START ===" $logPath "Green"
     
-    # Исправленная обработка секций
+   
     ($config.Keys | Where-Object { $_ -match "^source\d+" } | Sort-Object) | ForEach-Object {
         $section = $_
         $settings = $config[$section]

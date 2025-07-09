@@ -41,31 +41,6 @@ For each backup task, create a section with the following structure:
 
 ---
 
-Example for additional tasks:
-
-`[source2]`
-
-`Enabled = false`
-
-`Source = C:\ImportantFiles`
-
-`Destination = D:\Backups\Important`
-
-`Archive = false`
-
-
-`[source3]`
-
-`Enabled = true`
-
-`Source = \\NAS\Shared`
-
-`Destination = G:\NAS_Backups`
-
-`Archive = true`
-
----
-
 ### ⚠️ **Important Notice: PowerShell Version Required**
 
 This script **requires Microsoft PowerShell version 7.5 or higher**.
