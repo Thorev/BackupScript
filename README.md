@@ -1,0 +1,35 @@
+### Purpose:
+
+The CopyFolders.ps1 script copies files from specified source folders to destination folders, with optional archiving. It is controlled via .ini file.
+
+
+
+### How to Use:
+
+To run launch the `run_backup.bat` file with a double-click.
+
+
+
+### Configure .ini file:
+
+`[Settings]`
+
+`LogPath = log.log`  — path to the log file (can be renamed or moved).
+
+`[sourceX]`  — task name. You can add as many as you want, just change the number (e.g., `[source6], [source7]`, etc.).
+
+`Enabled = true`  — enable (true) or disable (false) this task.
+
+`Source = E:\BACKUP_source`  — path to the folder to back up.
+
+`Destination = F:\BACKUP_destination`  — path to where the files will be copied.
+
+`Archive = true`  — if true, creates a ZIP archive with the current date.
+
+
+
+### Requirements:
+
+PowerShell 7.5 or higher
+
+Must be launched via run_backup.bat, not directly (otherwise it may run in PowerShell 5 and fail to work)
