@@ -19,6 +19,7 @@ Note: Do not run the PowerShell script directly - it must be launched via the ba
 Main Settings Section
 
 `[Settings]`
+
 `LogPath = log.log`  # Path to the log file (can be renamed or relocated)
 
 
@@ -26,24 +27,40 @@ Backup Task Sections
 For each backup task, create a section with the following structure:
 
 `[source1]`  # Task identifier (increment number for additional tasks)
+
 `Enabled = true`             # true to enable, false to disable this task
+
 `Source = E:\BACKUP_source`  # Source directory to back up
+
 `Destination = F:\BACKUP_destination`  # Target backup location
+
 `Archive = true`             # Enable ZIP archiving (true/false)
 
 
+
 Example for additional tasks:
+
 `[source2]`
+
 `Enabled = false`
+
 `Source = C:\ImportantFiles`
+
 `Destination = D:\Backups\Important`
+
 `Archive = false`
 
+
 `[source3]`
+
 `Enabled = true`
+
 `Source = \\NAS\Shared`
+
 `Destination = G:\NAS_Backups`
+
 `Archive = true`
+
 
 
 ✔️ Requirements
