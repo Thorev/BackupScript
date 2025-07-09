@@ -14,7 +14,7 @@ Perform all enabled backup tasks
 
 Generate logs of the operation
 
-Note: Do not run the PowerShell script directly - it must be launched via the batch file.
+Note: Must be executed via run_backup.bat (direct execution may default to PowerShell 5.x and fail)
 
 ---
 
@@ -66,8 +66,15 @@ Example for additional tasks:
 
 ---
 
-## ✔️ Requirements
-PowerShell 7.5 or higher
+### ⚠️ **Important Notice: PowerShell Version Required**
 
-Must be executed via run_backup.bat (direct execution may default to PowerShell 5.x and fail)
+This script **requires Microsoft PowerShell version 7.5 or higher**.
+
+> 🪟 **Note for Windows 11 users:**
+> By default, Windows 11 comes with an **older version** of PowerShell (usually 5.x), which is **not compatible** with this script.
+> Running it without the correct version will cause it to fail.
+
+✅ **Download the latest PowerShell from the official repository:**
+[https://github.com/PowerShell/PowerShell/](https://github.com/PowerShell/PowerShell/)
+
 
