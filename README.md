@@ -2,11 +2,15 @@
 
 The CopyFolders.ps1 script copies files from specified source folders to destination folders, with optional archiving. It is controlled via .ini file.
 
+
+
 ### How to Use:
 
 To run launch the `run_backup.bat` file with a double-click.
 
-Configure the .ini file:
+
+
+### Configure .ini file:
 
 `[Settings]`
 
@@ -21,6 +25,8 @@ Configure the .ini file:
 `Destination = F:\BACKUP_destination`  — path to where the files will be copied.
 
 `Archive = true`  — if true, creates a ZIP archive with the current date.
+
+
 
 ### Requirements:
 
