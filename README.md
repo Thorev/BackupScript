@@ -44,9 +44,13 @@ For each backup task, create a section with the following structure:
 Example for additional tasks:
 
 `[source2]`
+
 `Enabled = false`
+
 `Source = C:\ImportantFiles`
+
 `Destination = D:\Backups\Important`
+
 `Archive = false`
 
 
