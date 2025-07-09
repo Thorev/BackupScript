@@ -9,6 +9,7 @@ To run launch the `run_backup.bat` file with a double-click.
 Configure the .ini file:
 
 `[Settings]`
+
 `LogPath = log.log`  — path to the log file (can be renamed or moved).
 
 `[source1]`
