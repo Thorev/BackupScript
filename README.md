@@ -40,19 +40,6 @@ For each backup task, create a section with the following structure:
 `Archive = true`             # Enable ZIP archiving (true/false)
 
 ---
-[source2]
-Enabled = false
-Source = C:\ImportantFiles
-Destination = D:\Backups\Important
-Archive = false
-
-[source3]
-Enabled = true
-Source = \\NAS\Shared
-Destination = G:\NAS_Backups
-Archive = true
-
----
 
 Example for additional tasks:
 
