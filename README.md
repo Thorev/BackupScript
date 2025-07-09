@@ -1,7 +1,7 @@
-📌 Purpose
+## 📌 Purpose
 The script provides automated file backup functionality, copying files from specified source folders to destination locations with optional archiving capabilities. The entire process is controlled via a configuration (.ini) file.
 
-🚀 How to Use
+## 🚀 How to Use
 Double-click the `run_backup.bat` file to execute the backup process
 
 The script will automatically:
@@ -15,7 +15,7 @@ Generate logs of the operation
 Note: Do not run the PowerShell script directly - it must be launched via the batch file.
 
 
-⚙️ Configuration (INI File Setup)
+## ⚙️ Configuration (INI File Setup)
 Main Settings Section
 
 `[Settings]`
@@ -63,7 +63,7 @@ Example for additional tasks:
 
 
 
-✔️ Requirements
+## ✔️ Requirements
 PowerShell 7.5 or higher
 
 Must be executed via run_backup.bat (direct execution may default to PowerShell 5.x and fail)
