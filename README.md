@@ -1,6 +1,6 @@
 ### Purpose:
 
-The CopyFolders.ps1 script copies files from specified source folders to destination folders, with optional archiving. It is controlled via a .ini file.
+The CopyFolders.ps1 script copies files from specified source folders to destination folders, with optional archiving. It is controlled via .ini file.
 
 ### How to Use:
 
