@@ -11,11 +11,11 @@ Configure the .ini file:
 `[Settings]`
 `LogPath = log.log`  — path to the log file (can be renamed or moved).
 
-`[source1]`
-`Enabled = true`
-`Source = E:\BACKUP_source`
-`Destination = F:\BACKUP_destination`
-`Archive = true`
+`[source1]
+Enabled = true
+Source = E:\BACKUP_source
+Destination = F:\BACKUP_destination
+Archive = true`
 
 `[sourceX]` — task name. You can add as many as you want, just change the number (e.g., `[source6], [source7]`, etc.).
 
