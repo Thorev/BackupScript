@@ -2,11 +2,9 @@
 
 The CopyFolders.ps1 script copies files from specified source folders to destination folders, with optional archiving. It is controlled via a .ini file.
 
-### 🛠️ How to Use:
+### How to Use:
 
-Run:
-
-Launch the run_backup.bat file with a double-click.
+To run launch the `run_backup.bat` file with a double-click.
 
 Configure the .ini file:
 
@@ -29,7 +27,7 @@ Destination — path to where the files will be copied.
 
 Archive — if true, creates a ZIP archive with the current date.
 
-### ⚠️ Requirements:
+### Requirements:
 
 PowerShell 7.5 or higher
 
