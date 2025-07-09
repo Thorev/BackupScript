@@ -41,23 +41,15 @@ For each backup task, create a section with the following structure:
 
 ---
 [source2]
-
 Enabled = false
-
 Source = C:\ImportantFiles
-
 Destination = D:\Backups\Important
-
 Archive = false
 
 [source3]
-
 Enabled = true
-
 Source = \\NAS\Shared
-
 Destination = G:\NAS_Backups
-
 Archive = true
 
 ---
