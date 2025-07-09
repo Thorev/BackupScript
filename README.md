@@ -12,25 +12,15 @@ Configure the .ini file:
 
 `LogPath = log.log`  — path to the log file (can be renamed or moved).
 
-`[source1]`
+`[sourceX]`  — task name. You can add as many as you want, just change the number (e.g., `[source6], [source7]`, etc.).
 
-`Enabled = true`
+`Enabled = true`  — enable (true) or disable (false) this task.
 
-`Source = E:\BACKUP_source`
+`Source = E:\BACKUP_source`  — path to the folder to back up.
 
-`Destination = F:\BACKUP_destination`
+`Destination = F:\BACKUP_destination`  — path to where the files will be copied.
 
-`Archive = true`
-
-`[sourceX]` — task name. You can add as many as you want, just change the number (e.g., `[source6], [source7]`, etc.).
-
-Enabled — enable (true) or disable (false) this task.
-
-Source — path to the folder to back up.
-
-Destination — path to where the files will be copied.
-
-Archive — if true, creates a ZIP archive with the current date.
+`Archive = true`  — if true, creates a ZIP archive with the current date.
 
 ### Requirements:
 
