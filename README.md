@@ -39,7 +39,7 @@ For each backup task, create a section with the following structure:
 
 `Archive = true`             # Enable ZIP archiving (true/false)
 
-
+---
 
 Example for additional tasks:
 
